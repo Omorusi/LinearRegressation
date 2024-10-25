@@ -1,31 +1,31 @@
 
 ## Machine Learning Project Overview
-This project focuses on analyzing basketball statistics, specifically the three-point shooting performance across various seasons. The main goal is to compute total three-point field goals made (3P) and attempted (3PA), and to analyze trends over seasons using linear regression.
+This project focuses on analysing basketball statistics, specifically the three-point shooting performance across various seasons. The main goal is to compute total three-point field goals made (3P) and attempted (3PA), and to analyse trends over seasons using linear regression.
 
-#My Google Colab file
-https://colab.research.google.com/drive/123rW-SODe6pG0OVNj94U65Y41_V2htZn#scrollTo=_5-6eLLLxAOO
+## My Google Colab file
+[Google Colab Notebook](https://colab.research.google.com/drive/123rW-SODe6pG0OVNj94U65Y41_V2htZn#scrollTo=_5-6eLLLxAOO)
 
 ### Technologies Used
 - **Python**: The primary programming language for data processing.
 - **Pandas**: For data manipulation and handling CSV files.
 - **Numpy**: For performing numerical operations.
-- **Matplotlib**: For visualizing data through plots.
+- **Matplotlib**: For visualising data through plots.
 - **Scikit-learn**: To implement linear regression analysis to identify trends in shooting performance.
 
 ## Project Summary
-This project utilizes data collected from Basketball Reference, covering the last 24 seasons of professional basketball. The analysis focuses on three-point field goals (3P) made and attempted (3PA), aiming to identify trends in shooting performance and the increasing significance of three-point shooting in basketball. Preliminary findings suggest a substantial growth in three-point attempts and makes, indicating a shift in offensive strategy. By employing data processing techniques and linear regression, this project aims to contribute valuable insights into how the game of basketball has evolved over the years.
+This project utilises data collected from Basketball Reference, covering the last 24 seasons of professional basketball. The analysis focuses on three-point field goals (3P) made and attempted (3PA), aiming to identify trends in shooting performance and the increasing significance of three-point shooting in basketball. Preliminary findings suggest a substantial growth in three-point attempts and makes, indicating a shift in offensive strategy. By employing data processing techniques and linear regression, this project aims to contribute valuable insights into how the game of basketball has evolved over the years.
 
 ## Data Collected
 The dataset for this project comes from Basketball Reference, covering 24 seasons of basketball statistics focused on three-point field goals (3P and 3PA). This extensive timeframe allows for analysis of trends in the growing importance of three-point shooting in influencing game strategies.
 
 ## Data Pre-Processing
-Critical data pre-processing steps were undertaken, including cleaning missing data, formatting columns to numeric types, removing invalid records, and potentially normalizing data ranges. These steps ensure the dataset is accurate and reliable for analysis.
+Critical data pre-processing steps were undertaken, including cleaning missing data, formatting columns to numeric types, removing invalid records, and potentially normalising data ranges. These steps ensure the dataset is accurate and reliable for analysis.
 
 ## Data Analysis Insights
-The analysis reveals a clear trend of increasing three-point attempts and makes, reflecting a shift in basketball strategies where teams prioritize three-point shooting. This trend illustrates the competitive advantage of effective long-range shooting, reinforcing its role as a cornerstone of modern basketball.
+The analysis reveals a clear trend of increasing three-point attempts and makes, reflecting a shift in basketball strategies where teams prioritise three-point shooting. This trend illustrates the competitive advantage of effective long-range shooting, reinforcing its role as a cornerstone of modern basketball.
 
 ## Algorithms
-A Linear Regression model was used to analyze the relationship between seasons and total three-point field goals made. This algorithm effectively identifies trends over time, with the slope indicating the rate of increase in three-point shots made per season. Visualization tools like Matplotlib were employed to create plots for better interpretation of the data.
+A Linear Regression model was used to analyse the relationship between seasons and total three-point field goals made. This algorithm effectively identifies trends over time, with the slope indicating the rate of increase in three-point shots made per season. Visualisation tools like Matplotlib were employed to create plots for better interpretation of the data.
 
 ### Python Code for Linear Regression
 ```python
