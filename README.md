@@ -47,7 +47,7 @@ y_pred = model.predict(X)
 # Print the linear regression coefficients
 print(f'Linear Regression Coefficient (slope): {model.coef_[0]}')
 print(f'Linear Regression Intercept: {model.intercept_}')
-
+```python
 ## Challenges Encountered
 Throughout this project, several challenges have emerged, including:
 
