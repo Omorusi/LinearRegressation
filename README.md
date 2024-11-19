@@ -47,14 +47,19 @@ y_pred = model.predict(X)
 # Print the linear regression coefficients
 print(f'Linear Regression Coefficient (slope): {model.coef_[0]}')
 print(f'Linear Regression Intercept: {model.intercept_}')
-```python
-## Challenges Encountered
+
+### Challenges Encountered
 Throughout this project, several challenges have emerged, including:
 
 - **Data Quality Issues**: Encountering missing or inconsistent data entries has required meticulous cleaning to ensure the accuracy of the analysis.
 - **Complexity in Data Manipulation**: Handling various data formats and ensuring all entries were properly normalized posed a challenge during pre-processing.
 - **Algorithm Selection**: Deciding on the most appropriate machine learning algorithm required a deeper understanding of their respective advantages and limitations, leading to some trial and error.
 - **Ordering the Dates**: On the Y-axis of the graph, the values are not ordered from smallest to largest, as I am using the names of the files to represent them on the Y-axis.
+For the Ordering the Dates I used :
+
+ # Extract the season number from the filename (assuming it is of the format "0-1.csv")
+    season = file.split('/')[-1].split('.')[0]  # Get the filename without path and extension
+    csv_data['Season'] = season  # Add the season column
 
 ## References and Resources
 The primary source of data is Basketball Reference, supplemented by various textbooks and online resources. These resources provided insights into best practices for data collection and cleaning, algorithm selection, and effective visualization techniques to present results clearly and effectively.
