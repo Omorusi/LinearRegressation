@@ -56,6 +56,14 @@ For the Ordering the Dates I used :
 - [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/) - Official documentation for data manipulation with Pandas.
 - [Matplotlib Documentation](https://matplotlib.org/stable/contents.html) - Documentation for data visualization with Matplotlib.
 
+## Prediction Model
+
+Mean Absolute Error (MAE): 10398.16
+Root Mean Squared Error (RMSE): 22423.59
+R² Score: 0.41
+
+The model's predictions are off by an average of about 10,398 attempts (MAE), with typical errors around 22,423 attempts (RMSE). It explains only 41% of the variance (R²), meaning it doesn't fully capture the relationship between seasons and three-point attempts. This suggests room for improvement with more features or a better model.
+
 ### Python Code for Linear Regression
 ```python
 # Prepare the data for linear regression
