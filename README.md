@@ -16,7 +16,7 @@ This project focuses on analysing basketball statistics, specifically the three-
 This project utilises data collected from Basketball Reference, covering the last 24 seasons of professional basketball. The analysis focuses on three-point field goals (3P) made and attempted (3PA), aiming to identify trends in shooting performance and the increasing significance of three-point shooting in basketball. Preliminary findings suggest a substantial growth in three-point attempts and makes, indicating a shift in offensive strategy. By employing data processing techniques and linear regression, this project aims to contribute valuable insights into how the game of basketball has evolved over the years.
 
 ## Data Collected
-The dataset for this project comes from Basketball Reference, covering 24 seasons of basketball statistics focused on three-point field goals (3P and 3PA). This extensive timeframe allows for analysis of trends in the growing importance of three-point shooting in influencing game strategies.
+The dataset for this project comes from Basketball Reference (https://www.basketball-reference.com/), covering 24 seasons of basketball statistics focused on three-point field goals (3P and 3PA). This extensive timeframe allows for analysis of trends in the growing importance of three-point shooting in influencing game strategies.
 
 ## Data Pre-Processing
 Critical data pre-processing steps were undertaken, including cleaning missing data, formatting columns to numeric types, removing invalid records, and potentially normalising data ranges. These steps ensure the dataset is accurate and reliable for analysis.
