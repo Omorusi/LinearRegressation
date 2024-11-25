@@ -60,6 +60,20 @@ For the Ordering the Dates I used :
 - [Matplotlib Documentation](https://matplotlib.org/stable/contents.html) - Documentation for data visualization with Matplotlib.
 
 ## Prediction Model
+# Predict the target variable using the model
+y_pred = model.predict(X)
+
+# Calculate metrics
+mae = mean_absolute_error(y, y_pred)
+mse = mean_squared_error(y, y_pred)
+rmse = np.sqrt(mse)
+r2 = r2_score(y, y_pred)
+
+# Print the results
+print(f"Mean Absolute Error (MAE): {mae:.2f}")
+print(f"Root Mean Squared Error (RMSE): {rmse:.2f}")
+print(f"R² Score: {r2:.2f}")
+
 
 Mean Absolute Error (MAE): 10398.16
 Root Mean Squared Error (RMSE): 22423.59
