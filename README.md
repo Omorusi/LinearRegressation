@@ -27,9 +27,16 @@ The analysis reveals a clear trend of increasing three-point attempts and makes,
 ## Algorithms
 A Linear Regression model was used to analyse the relationship between seasons and total three-point field goals made. This algorithm effectively identifies trends over time, with the slope indicating the rate of increase in three-point shots made per season. Visualisation tools like Matplotlib were employed to create plots for better interpretation of the data.
 ## Visualitasion of the one of the dataset (20-21)
-![progression during the year 3 p](https://github.com/user-attachments/assets/6c2cda38-1229-4e75-97a9-9d45b2be2f4b)
+
+![image](https://github.com/user-attachments/assets/96bd0d58-0670-4761-aa23-6e5ef17e329a)
 
 This a representaion of one of the dataset which shows the 3 points made and 3 points attemps from all the nba player during that season
+
+## Visualisation of the last 24 years 3 Point Attemps growing in the NBA
+
+![progression during the year 3 p](https://github.com/user-attachments/assets/6c2cda38-1229-4e75-97a9-9d45b2be2f4b)
+
+This graph shows the growing from the last 24 years that 3 points have made a good impact on teams as they play more to shots more shoots as they value of 3 points is greater than 2 points.
 
 ### Challenges Encountered
 Throughout this project, several challenges have emerged, including:
