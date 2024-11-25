@@ -46,6 +46,9 @@ Throughout this project, several challenges have emerged, including:
 - **Algorithm Selection**: Deciding on the most appropriate machine learning algorithm required a deeper understanding of their respective advantages and limitations, leading to some trial and error.
 - **Ordering the Dates**: On the Y-axis of the graph, the values are not ordered from smallest to largest, as I am using the names of the files to represent them on the Y-axis.
 For the Ordering the Dates I used :
+## Problem with the seasons 
+
+![image](https://github.com/user-attachments/assets/a920e10b-bc6c-467a-bff5-818c690ac964)
 
  # Extract the season number from the filename (assuming it is of the format "0-1.csv")
     season = file.split('/')[-1].split('.')[0]  # Get the filename without path and extension
